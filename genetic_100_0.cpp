@@ -130,7 +130,7 @@ vector<int> run_genetic_algorithm(const vector<int>& weights, const vector<int>&
 }
 
 int main() {
-    ifstream input_file("ks_100_0");
+    ifstream input_file("ks_100_0.txt");
     int item_count, max_weight;
     input_file >> item_count >> max_weight;
     vector<int> weights(item_count);
